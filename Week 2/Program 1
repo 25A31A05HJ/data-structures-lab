@@ -1,0 +1,13 @@
+#include<iostream>
+Using name space std;
+Int main(  )
+{
+Int a[10],n,i;
+Cout<<"enter total number of array  elements:";
+Cin>>n;
+for( i=0;i<n;i++)
+Cin>>a[i];
+Cout<< "\n array elements";
+For (i=o;i<n;i++)
+Cout<<a[i]<<"  ";
+}
