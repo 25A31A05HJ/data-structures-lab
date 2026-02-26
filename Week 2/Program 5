@@ -1,0 +1,22 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int a=10,b=30;
+float c=30.5,d=5.6;
+cout<<add(a,b,a);
+cout<<add(a,c,b);
+cout<<add(c,d,a);
+return 0;
+}
+add(int a,int b,int c)
+{
+return a+b+c;
+}
+add(int a,float b,int c)
+return a+b+c;
+}
+add(float a,floatb,int c)
+{
+return return a+b+c;
+}
