@@ -1,0 +1,13 @@
+#include<iostream>
+Using namespace std; int main( )
+{
+int a[10],n,i;
+Cout<<"enter total number of array elements:";
+Cin>>n;
+Int*p=new int[n];
+ for(i=0;i<n;i++)
+Cin>>*(p+i);
+Cout<<"\n array elements";
+For(i=0;i<n;i++)
+Cout<<*(p+i)<<"   ";
+}
